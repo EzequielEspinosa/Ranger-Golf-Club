@@ -1,5 +1,5 @@
 import { ItemCount } from "../ItemCount/ItemCount"
-
+import styles from "./itemDetail.module.css"
 export const ItemDetail = ( {description, price, stock, name, img} ) => {
 
 const onAdd = (items) => { 
@@ -7,9 +7,9 @@ alert(`Se agregaron ${items} al carrito`)
 }
 
 return (
-<div className="border m-2">
-    <div className="card ">
-    <div className="card-body ">
+<div className="m-2">
+    <div className={styles.cartDetail}>
+    <div className={`${styles.cartDetail}`}>
         <h5 className="card-title">{name}</h5>
         <img src={img} alt="" />
         <p className="card-text"> {description} </p>

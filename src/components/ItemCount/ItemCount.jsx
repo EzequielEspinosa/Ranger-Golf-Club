@@ -19,7 +19,7 @@ setCount(count - 1);
 
 
 return (
-<div className="d-flex flex-column col-2 justify-content-center align-content-center border border-3 border-primary rounded-3 p-4">
+<div>
     <div>
     <button className="btn btn-dark mx-3" onClick={increment}>
         +

@@ -1,8 +1,7 @@
-
-import { FaGolfBall } from "react-icons/fa";
+import { FcShipped } from "react-icons/fc";
 
 export const CartWidget = () => {
   return (
-    <FaGolfBall color="#198754" size={30} />
+    <FcShipped color="#198754" size={30} />
   );
 };

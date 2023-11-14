@@ -1,11 +1,10 @@
 const products = [
-    { id: "1", name: "Zapato", price: 100, category: "calzados", description: "Una Zapato", stock: 10 },
-    { id: "2", name: "Bota", price: 100, category: "calzados", description: "Una Bota", stock: 10 },
-    { id: "3", name: "Ojota", price: 100, category: "calzados", description: "Un Ojota", stock: 10 },
-    { id: "4", name: "Zapatilla", price: 100, category: "calzados", description: "Una Zapatilla", stock: 10 },
-    { id: "5", name: "Remera", price: 100, category: "ropa", description: "Una Remera", stock: 10 },
-    { id: "6", name: "Camisa", price: 100, category: "ropa", description: "Una Camisa", stock: 10 },
-    { id: "7", name: "Pantalón", price: 100, category: "ropa", description: "Una Pantalón", stock: 10 },
+    { id: "1", name: "Guantes", price: 430, category: "accesorios", description: "Guantes", stock: 15 },
+    { id: "2", name: "Lentes de sol", price: 870, category: "accesorios", description: "Lentes de sol", stock: 25 },
+    { id: "3", name: "tee", price: 250, category: "accesorios", description: "Tee largos", stock: 50 },
+    { id: "4", name: "Bolsas de palos", price: 30000, category: "Bolsas y palos", description: "Bolsas", stock: 35 },
+    { id: "5", name: "Palos", price: 150000, category: "Bolsas y palos", description: " Palos", stock: 23 },
+    { id: "6", name: "Pelotas", price: 500, category: "Bolsas y palos", description: "Pelotas", stock: 55 },
 ];
 
 export const getProducts = () => {

@@ -1,0 +1,10 @@
+
+.cart{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    background-color:  rgb(181, 203, 179);
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+}
