@@ -3,7 +3,7 @@ import styles from "./item.module.css"
 
 export const Item = ({ id, name, description }) => {
 return (
-<div className="m-2">
+<div className="    m-2">
     <div className={styles.cart}>
     <div className="card-body ">
         <h5 className="card-title">{name}</h5>
