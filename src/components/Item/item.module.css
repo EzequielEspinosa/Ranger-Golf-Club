@@ -8,3 +8,8 @@
     padding: 5px;
     margin-top: 15px;
 }
+
+.alineacion{
+    display: flex;
+    justify-content: space-around;
+}

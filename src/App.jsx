@@ -6,9 +6,10 @@ export const App = () => {
 return (
     <BrowserRouter>
     <NavBar />
+    <hr />
     <Routes>
-        <Route path="/" element={<ItemListContainer greeting={palabra} />} />
-        <Route path="/category/:category" element={<ItemListContainer greeting={palabra} />} />
+        <Route path="/" element={<ItemListContainer msj={palabra} />} />    
+        <Route path="/category/:category" element={<ItemListContainer msj={palabra} />} />
         <Route path="/item/:id" element={<ItemDetailContainer />} />
     </Routes>
     </BrowserRouter>

@@ -26,7 +26,7 @@ return new Promise((resolve, reject) => {
     const product = products.find( product => product.id === id); 
     setTimeout( () => { 
     if(!product) {
-        reject("No se encontró el producto solicitado")
+        reject("No se encontró el producto")
     } else {
         resolve(product);
     }

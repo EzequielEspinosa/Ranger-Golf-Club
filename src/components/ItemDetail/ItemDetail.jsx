@@ -11,7 +11,6 @@ return (
     <div className={styles.cartDetail}>
     <div className={`${styles.cartDetail}`}>
         <h5 className="card-title">{name}</h5>
-        <img src={img} alt="" />
         <p className="card-text"> {description} </p>
         <p>Precio: {price} </p>
         <ItemCount stock={stock} onAdd={onAdd} />

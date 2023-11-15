@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { getProducts } from "../../asyncMock";
 import { ItemList } from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
+import styles from "./itemListContainer.module.css"
 
 export const ItemListContainer = ({ msj }) => {
 const { category } = useParams();
@@ -31,7 +32,7 @@ useEffect(() => {
 
 return (
     <>
-    <div> {msj} </div>
+    <div className={styles.titulo}> {msj} </div>
     { isLoading ? <h2>Cargando productos...</h2> : <ItemList products={products} /> }
     </>
 );
