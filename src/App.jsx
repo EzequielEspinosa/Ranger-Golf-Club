@@ -1,4 +1,4 @@
-import { ItemDetailContainer, ItemListContainer, NavBar } from "./components";
+import { Formulario, ItemDetailContainer, ItemListContainer, NavBar } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export const App = () => {
@@ -12,6 +12,7 @@ return (
         <Route path="/category/:category" element={<ItemListContainer msj={palabra} />} />
         <Route path="/item/:id" element={<ItemDetailContainer />} />
     </Routes>
+    <Formulario/>
     </BrowserRouter>
 );
 };
